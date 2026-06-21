@@ -36,4 +36,8 @@ g++ main.cpp login.cpp calculator.cpp osinfo.cpp -o neonos```
 uruchomienie:
 ```./neonos```
 
+## 🧑‍💻 Autor
 
+- NeonCode Entertainment
+- Made by Neon
+- Make internet free again

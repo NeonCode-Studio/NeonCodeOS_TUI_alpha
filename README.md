@@ -31,4 +31,9 @@ Obsługiwane operacje:
 Linux / g++:
 
 ```bash
-g++ main.cpp login.cpp calculator.cpp osinfo.cpp -o neonos
+g++ main.cpp login.cpp calculator.cpp osinfo.cpp -o neonos```
+
+uruchomienie:
+```./neonos```
+
+

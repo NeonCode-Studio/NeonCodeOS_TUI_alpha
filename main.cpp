@@ -3,6 +3,7 @@
 #include "osinfo.h"
 #include "login.h"
 #include "calculator.h"
+#include "game.h"
 using namespace std;
 
 
@@ -17,7 +18,8 @@ int main() {
     int i;
     while (true){
         cout<<"1.Info o systemie"<<endl;
-        cout<<"2.Kalkulator"
+        cout<<"2.Kalkulator"<<endl;
+        cout<<"3.Ciekawa gierka"<<endl;
         cout<<"0. wyjscie"<<endl;
         cin >> i;
 
@@ -42,7 +44,9 @@ int main() {
 
             cout << "Wynik: " << wynik << endl;
             cout << "---------------------------" << endl;
+        } else if (i ==3){
+            game moja_gra;
+            moja_gra.start();
         }
-
     }
 }

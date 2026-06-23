@@ -45,7 +45,7 @@ int main() {
             cout << "Wynik: " << wynik << endl;
             cout << "---------------------------" << endl;
         } else if (i ==3){
-            game moja_gra;
+             game moja_gra;
             moja_gra.start();
         }
     }

@@ -3,29 +3,23 @@
 #include "game.h"
 using namespace std;
 
-class monster {
-public:
-    string nazwa;
-    int hp;
-
-    void ryk() {
-        cout<<nazwa<<" wydaje przerazajacy ryk! oraz ma "<<hp<<"hp"<<endl;
-    }
-};
 
 void game::start() {
     cout<<"prosta gra w moim OS"<<endl;
-    monster firstmonster;
-    firstmonster.nazwa = "smok";
-    firstmonster.hp = 150;
+    string bron_gracza = "deska";
 
-    firstmonster.ryk();
+    cout<<"wchodzisz do jaskini trzymajac w reku:"<<bron_gracza<<endl;
 
-    monster secondmonster;
-    secondmonster.nazwa = "mama z laczkiem";
-    secondmonster.hp = 10000;
+    cout<<"poczatek gry"<<endl;
+    cout<<"czym chcesz zaatakowac smoka(np patyk , laczek , miecz itd)"<<endl;
+    cin>>bron_gracza;
 
-    secondmonster.ryk();
-
-    cout<<"========================="<<endl;
+    if (bron_gracza == "laczek") {
+        cout<<"masz legendarna bron. smok ucieka"<<endl;
+    } else if(bron_gracza == "kremowka") {
+        cout<<"wygrywasz ze smokiem papieska kremowka"<<endl;
+    } else {
+        cout<<"smok sie zasnial tlyko z twojej:"<<bron_gracza<<"i staneles w plomianiach"<<endl;
+    }
+    cout<<"---------------------------------------"<<endl;
 }

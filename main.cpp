@@ -4,6 +4,8 @@
 #include "login.h"
 #include "calculator.h"
 #include "game.h"
+#include "neonfetch.h"
+#include "news.h"
 using namespace std;
 
 
@@ -20,6 +22,8 @@ int main() {
         cout<<"1.Info o systemie"<<endl;
         cout<<"2.Kalkulator"<<endl;
         cout<<"3.Ciekawa gierka"<<endl;
+        cout<<"4.neonfetch - NeonCode quick info"<<endl; 
+        cout<<"5. What's new in NeonCode OS Tui"<<endl;
         cout<<"0. wyjscie"<<endl;
         cin >> i;
 
@@ -45,8 +49,12 @@ int main() {
             cout << "Wynik: " << wynik << endl;
             cout << "---------------------------" << endl;
         } else if (i ==3){
-             game moja_gra;
+            game moja_gra;
             moja_gra.start();
+        } else if (i == 4){
+            neonfetch();
+        } else if (i == 5){
+            whatsNew();
         }
     }
 }

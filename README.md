@@ -47,7 +47,12 @@ Wbudowana aplikacja rozrywkowa przenosi użytkownika do jaskini potwora, gdzie s
 * **Bezpieczeństwo powłoki:** Po zakończeniu rozgrywki gra bezpiecznie zamyka swój proces i wraca do głównego menu NeonCode OS.
 
 ---
+## Oraz wiele wiele wiecej
 
+pobierz projekt i uruchom go a **przekonasz sie sam co jeszcze** mozesz spotkac w **NeonCode OS Tui** 
+pisanym samodzielnie bez uzycia jakichkoliwiek narzedzi z zewnatrz
+
+---
 ## 🚀 Kompilacja i Uruchomienie
 
 ### Wymagania

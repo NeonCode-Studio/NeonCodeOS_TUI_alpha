@@ -21,4 +21,4 @@ double calculator::oblicz(double a,double b,char znak) {
             cout<<"|BŁĄD| nieznany znak działania"<<endl;
             return 0;
     }   
-}
+}//ok
